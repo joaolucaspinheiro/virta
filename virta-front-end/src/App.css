@@ -1,3 +1,19 @@
+@import "tailwindcss";
+@theme {
+  --color-brand-100: #aeb1ee;
+  --color-brand-200: #898fc8;
+  --color-brand-300: #646ca2;
+  --color-brand-400: #3e497c;
+  --color-brand-500: #192656;
+  --color-primary: var(--color-brand-500);
+  --color-primary-foreground: white;
+  --animate-float: float 5s ease-in-out infinite;
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-3px); }
+  }
+}
 .counter {
   font-size: 16px;
   padding: 5px 10px;

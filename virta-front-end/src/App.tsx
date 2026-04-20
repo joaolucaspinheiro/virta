@@ -1,11 +1,8 @@
+import { LoginPage } from "./pages/login";
+import "./App.css";
+
 function App() {
-  return (
-      <div className="flex h-screen items-center justify-center bg-gray-100">
-        <h1 className="text-4xl font-bold text-blue-600">
-          Virta Frontend Rodando!
-        </h1>
-      </div>
-  )
+  return <LoginPage />;
 }
 
-export default App
+export default App;
