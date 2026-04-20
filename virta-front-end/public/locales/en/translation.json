@@ -1,0 +1,13 @@
+{
+  "login": {
+    "branding_title": "The management platform from now to the future",
+    "branding_description": "Track your finances, organize your tasks and connect with your collaborators",
+    "footer": "@ 2026 Virta. All rights reserved.",
+    "title": "Login Area",
+    "description": "Access your account to manage your flow",
+    "email": "Email",
+    "password": "Password",
+    "button": "Sign in",
+    "toast_success": "Access authorized!"
+  }
+}
